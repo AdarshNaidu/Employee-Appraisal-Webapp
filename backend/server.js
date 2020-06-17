@@ -1,13 +1,7 @@
-// import express from 'express';
-// import cors from 'cors';
-// import bodyParser from 'body-parser';
-// import mongoose from 'mongoose';
 const express = require('express');
 const cors = require('cors')
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
-
-// import Issue from './models/Issue';
 const Issue = require('./models/Issue')
 const Employee = require('./models/employee')
 
