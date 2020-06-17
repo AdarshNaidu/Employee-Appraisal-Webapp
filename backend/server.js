@@ -9,6 +9,7 @@ const mongoose = require('mongoose')
 
 // import Issue from './models/Issue';
 const Issue = require('./models/Issue')
+const Employee = require('./models/employee')
 
 const app = express();
 const router = express.Router();
